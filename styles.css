@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: hsl(185, 75%, 39%);
+  align-items: center;
+  font-size: 18px;
+  font-family: 'Kumbh Sans', sans-serif;
+  ;
+  overflow: hidden;
+}
+
+h3 {
+  font-weight: 400;
+  color: hsl(229, 23%, 23%);
+}
+
+p {
+  font-weight: 300;
+  color: hsl(227, 10%, 46%);
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.container {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: -10px;
+  bottom: 0;
+  left: 15px;
+  width: 375px;
+  height: 320px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px 5px rgba(0, 0, 0, 0.2);
+  background: rgb(255, 255, 255);
+  overflow: hidden;
+}
+
+.ds-top {
+  background-image: url(bg-pattern-card.svg);
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 400px;
+  height: 100px;
+}
+
+.victorimage {
+  border-radius: 50%;
+  top: 40px;
+  right: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  object-fit: cover;
+  position: absolute;
+  background: white;
+  overflow: hidden;
+}
+
+.info {
+  position: absolute;
+  margin: auto;
+  top: 25px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: inherit;
+  height: 50px;
+  text-align: center;
+}
+
+.social {
+  position: absolute;
+  margin: auto;
+  top: 160px;
+  bottom: 0;
+  right: 40px;
+  left: 40px;
+  height: 50px;
+  display: flex;
+  align-content: center;
+}
+
+.followers, .likes, .photos {
+  position: relative;
+  text-align: center;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: fixed;
+  bottom: 8%;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.bottom {
+  text-align: right;
+  padding-top: 50%;
+  position: absolute;
+}
